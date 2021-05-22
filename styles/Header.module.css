@@ -4,22 +4,17 @@
 }
 
 .nav {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 24px;
-
     cursor: pointer;
 }
 
 .auth {
-    position: absolute;
-    right: 0;
-    top: 0;
+    margin-left: auto;
 }
 
 .auth img {

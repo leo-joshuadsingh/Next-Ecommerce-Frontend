@@ -18,8 +18,6 @@ export default () => {
         router.back()
     }
 
-    
-
     return (
         <div className={styles.nav}>
             {!isHome && 
@@ -27,15 +25,7 @@ export default () => {
                     <a href="#" onClick={goBack}>{"<"} Back </a>
                 </div>
             }
-            <div className={styles.title}>
-                <Link href="/">
-                    <a>
-                        <h1>
-                            FullStack E-Commerce with NextJS, Magic, Strapi and Stripe
-                        </h1>
-                    </a>
-                </Link>
-            </div>
+            
 
             <div className={styles.auth}>
                 {user ? (

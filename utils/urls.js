@@ -1,9 +1,9 @@
 export const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:1338"
+  process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337"
 
-export const MAGIC_PUBLIC_KEY = process.env.NEXT_PUBLIC_MAGIC_PUBLIC_KEY || 'pk_test_42B2064C668798B5'
+export const MAGIC_PUBLIC_KEY = process.env.NEXT_PUBLIC_MAGIC_PUBLIC_KEY || 'pk_test_23CEEF76C9E9EF5B'
 
-export const STRIPE_PK = process.env.NEXT_PUBLIC_STRIPE_PK || 'pk_test_42B2064C668798B5'
+export const STRIPE_PK = process.env.NEXT_PUBLIC_STRIPE_PK || 'pk_test_51ItrQxJVbc7eQTPs2PapgY708atX7XT0o5GcGXeQ5EofaGFT4KEoQ7xB4iEkV0e7tImmTNC7M7m06is6XAa3nIzm00Dio5IDdR'
 
 /**
  * Given a image object return the proper path to display it
