@@ -6,6 +6,7 @@ import { fromImageToUrl, API_URL } from '../utils/urls'
 import { twoDecimals } from '../utils/format'
 
 export default function Home({ products }) {
+  console.log(products)
   return (
     <div>
       <Head>
@@ -14,7 +15,7 @@ export default function Home({ products }) {
       </Head>
 
       {products.map(product => (
-        <div className={styles.product}>
+        <div key={product.slug} className={styles.product}>
           <Link href={`/products/${product.slug}`}>
             <a>
               <div className={styles.product__Rows}>
